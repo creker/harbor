@@ -51,7 +51,7 @@ var (
 
 	accepts = []string{
 		v1.MediaTypeImageIndex,
-		manifestlist.MediaTypeManifestList,
+		//manifestlist.MediaTypeManifestList,
 		v1.MediaTypeImageManifest,
 		schema2.MediaTypeManifest,
 		schema1.MediaTypeSignedManifest,
