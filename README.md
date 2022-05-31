@@ -1,3 +1,12 @@
+# building
+```
+make versions_prepare VERSIONTAG=<version>
+make compile_core VERSIONTAG=<version>
+make build VERSIONTAG=<version>
+```
+
+To avoid building unnecessary images modify `make/photon/Makefile`. In `build` target remove everything except for `_build_prepare` and `_build_core`.
+
 # Harbor
 
 [![CI](https://github.com/goharbor/harbor/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/goharbor/harbor/actions?query=event%3Apush+branch%3Amaster+workflow%3ACI+)
